@@ -20,7 +20,6 @@ newItemForm.addEventListener('submit', function(evt) {
 
 var deleteMessage = function (message) {
   var buttonDelete = message.querySelector('.chat-message-button');
-  console.log(buttonDelete);
   buttonDelete.addEventListener('click', function() {
     message.remove();
   });
